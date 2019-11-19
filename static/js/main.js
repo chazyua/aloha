@@ -340,58 +340,6 @@
   });
 
 
-//   $('.checkin_date, .checkout_date').datepicker({
-// 	  'format': 'm/d/yyyy',
-// 	  'autoclose': true
-// 	});
-
-
-
-	// /* Back to Top */
-	// var clBackToTop = function() {
-			
-	// 	var pxShow  = 500,         // height on which the button will show
-	// 	fadeInTime  = 400,         // how slow/fast you want the button to show
-	// 	fadeOutTime = 400,         // how slow/fast you want the button to hide
-	// 	scrollSpeed = 300,         // how slow/fast you want the button to scroll to top. can be a value, 'slow', 'normal' or 'fast'
-	// 	goTopButton = $(".go-top")
-		
-	// 	// Show or hide the sticky footer button
-	// 	$(window).on('scroll', function() {
-	// 		if ($(window).scrollTop() >= pxShow) {
-	// 			goTopButton.fadeIn(fadeInTime);
-	// 		} else {
-	// 			goTopButton.fadeOut(fadeOutTime);
-	// 		}
-	// 	});
-	// };
-	// clBackToTop();
-
-	// /* Smooth Scrolling */
-    // var clSmoothScroll = function() {
-        
-    //     $('.smoothscroll').on('click', function (e) {
-    //         var target = this.hash,
-    //         $target    = $(target);
-            
-    //             e.preventDefault();
-    //             e.stopPropagation();
-
-    //         $('html, body').stop().animate({
-    //             'scrollTop': $target.offset().top
-    //         }, cfg.scrollDuration, 'swing').promise().done(function () {
-
-    //             // check if menu is open
-    //             if ($('body').hasClass('menu-is-open')) {
-    //                 $('.header-menu-toggle').trigger('click');
-    //             }
-
-    //             window.location.hash = target;
-    //         });
-    //     });
-	// };
-	// clSmoothScroll();
-
 	var btn = $('#button');
 
 	$(window).scroll(function() {
